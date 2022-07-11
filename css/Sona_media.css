@@ -1,0 +1,150 @@
+@media screen and (max-width: 1648px){
+	.imges div:nth-child(6){
+		margin-bottom: 192px;
+	}
+}
+@media screen and (max-width: 1400px){
+	main a{
+		font-size: 15px;
+	}
+	main{
+		width: 700px;
+	}
+	header button{
+		font-size: 15px;
+	}
+	.header_logo{
+		width: 130px;
+	}
+}
+@media screen and (max-width: 1200px){
+	section{
+		box-shadow: none;
+	}
+	section button{
+		align-self: center;
+	}
+	section{
+		text-align: center;
+	}
+	section p{
+		margin-left: 46px;
+		margin-right: 26px;
+	}
+	.black_logo{
+		margin-left: 30px;
+		margin-right: 25px;
+	}
+}
+@media screen and (max-width:1100px){
+	.header_i{
+    display: block;
+	}
+	main{
+		display: none;
+	}
+}
+@media screen and (max-width: 1096px){
+	.imges div{
+		margin-left: 92px;
+		margin-right: 75px;
+	}
+}
+@media screen and (max-width: 900px){
+	.white_logo{
+		height: 234px;
+		margin-right: 75px;
+		margin-left: 85px;
+		margin-top: 65px;
+	}
+	.white_logo img{
+		height: 234px;
+	}
+	.box_text{
+		margin-left: 90px;
+		margin-right: 75px;
+	}
+	.imges div{
+		height: 262px;
+	}
+	.imges img{
+		height: 262px;
+	}
+	.n1{
+		height: 101px;
+	}
+	.n2{
+		height: 115px;
+	}
+	.n3{
+		height: 136px;
+	}
+	.n4{
+		height: 115px;
+	}
+	.n5{
+		height: 101px;
+	}
+	.img_1 div:nth-child(1){
+		margin-top: 100.88px;
+	}
+	.img_1 div:nth-child(2){
+		margin-top: 93px;
+	}
+	.img_1 div:nth-child(3){
+		margin-top: 83.41px;
+	}
+	.img_1 div:nth-child(4){
+		margin-top: 93px;
+	}
+	.img_1 div:nth-child(5){
+		margin-top: 100.88px;
+	}
+	/* xntir a*/
+	.arrow div:nth-child(1){
+		margin-top: 249px;
+		cursor: pointer;
+	}
+	.arrow div:nth-child(2){
+		margin-top: 249px;
+	}
+	.our_img button{
+		display: none;
+	}
+	.our_img{
+		height: 412.5px;
+	}
+	.box_text{
+		margin-top: 60px;
+	}
+
+}
+@media screen and (max-width: 700px){
+	.black_logo{
+		height: 312px;
+	}
+	.black_logo img{
+		height: 312px;
+	}
+	footer{
+		background-color: #141414;
+	}
+	.contact_us{
+		margin-top: 150px;
+		height: 300px;
+		flex-flow: column;
+		align-items:  center;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,380 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #626567;
+}
+header{
+	height: 80px;
+	display: flex;
+	justify-content: space-around;
+	background-color: #000000;
+/*	line-height: 80px;*/
+	box-shadow: 0px 0px 10px 0px #FFFFFF;
+}
+.header_logo{
+	margin-top: 15px;
+	width: 177px;
+	height: 44px;
+}
+.header_logo img{
+	width: 100%;
+	height: 44px;
+}
+main{
+	width: 938px;
+	margin-top: 29px;
+	/*height: 23px;*/
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+main a{
+	text-decoration: none;
+	font-family: 'DejaVu Sans';
+	font-weight: 400;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+header button{
+	width: 220px;
+	height: 37px;
+	margin-top: 22px;
+	background-color: #FECE47;
+	border-radius: 20px;
+	text-decoration: none;
+	font-family: 'DejaVu Sans';
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 0.03em;
+	cursor: pointer;
+}
+.header_i{
+	display: none;
+	max-width: 50px;
+	margin-top: 30px;
+/*	height: 35px;*/
+}
+.header_i img{
+	width: 100%;
+	height: 35px;
+}
+section{
+	background-color: #141414;
+	height: 1080px;
+	margin-top: 3px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 155px 0px 0px 0px #626567 inset;
+}
+h1{
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 35px;
+	letter-spacing: 0.03em;
+	color: #FFBC00;
+	margin-bottom: 89px;
+	text-indent: 5px;
+}
+section p{
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 0.03em;
+	color: #FFFFFF;
+	max-width: 853px;
+	margin-bottom: 128px;
+}
+section button{
+	width: 242px;
+	height: 40px;
+	border-radius: 43px;
+	background-color: black;
+	color: #FFFFFF;
+	margin: 5px;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 0.03em;
+	box-shadow: 0px 0px 10px 0px #FFFFFF;
+	cursor: pointer;
+}
+.section_text{
+	display: flex;
+	flex-direction: column;
+}
+.black_logo{
+	width: 628.4px;
+	height: 451.7px;
+}
+.black_logo img{
+	width: 100%;
+	height: 451.7px;
+}
+.imges{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	background-color: black;
+	min-Height: 1080px;
+}
+.imges div{
+	max-width: 526.79px;
+	height: 362px;
+	margin-top: 30px;
+	margin-left: 22px;
+}
+.imges img{
+	width: 100%;
+	height: 362px;
+	cursor: pointer;
+}
+.our_service{
+	width: 430px;
+	height: 37px;
+	font-family: 'DejaVu Sans';
+	font-weight: 700;
+	font-size: 32px;
+	letter-spacing: 0.03em;
+	color: #FECE47;
+	transform: rotate(-90deg);
+	transform-origin: 310px 320px;
+	position: sticky;
+	top: -220px;
+	background-color: black;
+}
+.but{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  cursor: pointer;
+}
+.advertisement_child{
+	width: 634px;
+	height: 473px;
+	background-color: #1D1B1B;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+.advertisement_text{
+	height: 473px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.advertisement_text div{
+	width: 400px;
+	Font-family: "DejaVu Sans";
+	Font-size: 32px;
+	Vertical-align: Top;
+	Letter-spacing: 3%;
+	margin-bottom: 56px;
+}
+.advertisement_text button{
+	padding: 8px, 32px, 8px, 32px;
+	border: none;
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	width: 195px;
+	height: 37px;
+	cursor: pointer;
+}
+.advertisement_parent{
+	background-color: #C4C4C4;
+	max-width: 1150px;
+	height: 585px;
+	display: none;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+}
+.white_logo{
+	max-width: 635.33px;
+	height: 450px;
+	margin-top: 90px;
+}
+.white_logo img{
+	width: 100%;
+	height: 450px;
+}
+.box_text{
+	max-width: 787px;
+	height: 432px;
+	margin-top: 90px;
+}
+.box{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	background-color: #141414;
+	min-height: 748px;
+}
+.about_us{
+	width: 470px;
+	height: 45px;
+	font-family: 'DejaVu Sans';
+	font-weight: 700;
+	font-size: 32px;
+	letter-spacing: 0.03em;
+	color: #FECE47;
+	transform: rotate(-90deg);
+	transform-origin: 260px 260px;
+	text-align: center;
+	position: sticky;
+	top: -140px;
+	background-color: black;
+}
+.our_work{
+	width: 430px;
+	height: 42px;
+	font-family: 'DejaVu Sans';
+	font-weight: 700;
+	font-size: 32px;
+	letter-spacing: 0.03em;
+	color: #FECE47;
+	transform: rotate(-90deg);
+	transform-origin: 370px 380px;
+	position: sticky;
+	top: -340px;
+	background-color: black;
+}
+.our_img{
+	display: flex;
+	justify-content: center;
+	height: 1080px;
+	background-color: #141414;
+	margin-top: 30px;
+}
+.img_1{
+	max-width: 1661px;
+}
+.img_1 div{
+	max-width: 921px;
+	height: 586px;
+}
+.img_1 img{
+	width: 100%;
+	border-radius: 20px;
+}
+.n1{
+		height: 436px;
+}
+.n2{
+		height: 504px;
+}
+.n3{
+		height: 586px;
+}
+.n4{
+		height: 504px;
+}
+.n5{
+		height: 436px;
+}
+.img_1 div:nth-child(1){
+	position: absolute;
+	left: 7.7%;
+	right: 46%;
+	margin-top: 263px;
+}
+.img_1 div:nth-child(2){
+	position: absolute;
+	left: 18.4%;
+	right: 36%;
+	margin-top: 229px;
+}
+.img_1 div:nth-child(3){
+	position: absolute;
+	left: 26.1%;
+	right: 28%;
+	margin-top: 182px;
+	z-index: 3;
+}
+.img_1 div:nth-child(4){
+	position: absolute;
+	right: 18.4%;
+	left: 36%;
+	margin-top: 229px;
+	z-index: 2;
+}
+.img_1 div:nth-child(5){
+	position: absolute;
+	right: 7.7%;
+	left: 46%;
+	margin-top: 263px;
+	z-index: 1;
+}
+/* xntir a */
+.arrow div{
+	cursor: pointer;
+}
+.arrow div:nth-child(1){
+	position: absolute;
+	margin-top: 849px;
+	left: 46%;
+}
+.arrow div:nth-child(2){
+	position: absolute;
+	margin-top: 849px;
+	left: 50.9%;
+}
+.our_img button{
+	background-color: black;
+	color: white;
+	width: 242px;
+	height: 40px;
+	position: absolute;
+	margin-top: 909px;
+	border-radius: 43px;
+	box-shadow: 0px 0px 10px 0px #FFFFFF;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	cursor: pointer;
+}
+.box_text p{
+	margin-bottom: 40px;
+	color: white;
+}
+footer{
+	min-height: 309px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.contact_us{
+	width: 1284px;
+	height: 42px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.contact_us a{
+	text-decoration: none;
+	font-family: 'DejaVu Sans';
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 0.03em;
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
